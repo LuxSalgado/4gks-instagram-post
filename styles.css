@@ -21,6 +21,7 @@ p {
 }
 .post-header {
     display: flex;
+    justify-content: flex-start;
     width: 400px;
     height: 50px;
     box-sizing: border-box;
@@ -28,7 +29,6 @@ p {
 }
 .post-user {
     margin: 0;
-    width: 340px;
 }
 .post-image {
     width: 400px;
@@ -50,5 +50,8 @@ p {
     justify-content: flex-start;
 }
 #special-icon {
+    margin-left: auto;
+}
+#special-icon2 {
     margin-left: auto;
 }
